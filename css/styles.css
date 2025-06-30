@@ -11051,8 +11051,11 @@ footer.footer .social-link:hover {
   z-index: 1;
 }
 .portfolio-item .caption .caption-content {
-  color: #e75050 !important;
+  color: #fff !important;
   margin: auto 2rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5); /* negro con opacidad */
+  padding: 10px;
+  border-radius: 8px;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
   font-size: 0.8rem;
