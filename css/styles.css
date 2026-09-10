@@ -11112,17 +11112,17 @@ footer.footer .social-link:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* Forzar un alto uniforme y un comportamiento de recorte limpio en el portafolio */
+/* --- Corrección forzada para las imágenes del portafolio --- */
 #portfolio .portfolio-item {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 300px; /* Puedes ajustar esta altura según prefieras (ej. 250px o 350px) */
+    display: block !important;
+    position: relative !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    height: 320px !important; /* Altura fija para que todas las tarjetas midan lo mismo */
 }
 
 #portfolio .portfolio-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Evita que la imagen se deforme, rellenando el espacio */
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Esto evita que se estiren o deformen */
 }
